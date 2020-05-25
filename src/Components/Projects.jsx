@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="ProjectsMainContainer">
+    <div id="ProjectsTab" className="ProjectsMainContainer">
       <div className="ProjectsHeader">
         <h2>Projects</h2>
         <div className="ProjectsLine"></div>
@@ -97,9 +97,7 @@ const Projects = () => {
         {/*  */}
 
       </div>
-      <div style={{backgroundColor: "black"}}>
-      <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-      </div>
+   
     </div>
   );
 };

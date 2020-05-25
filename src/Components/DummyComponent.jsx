@@ -7,7 +7,7 @@ class DummyComponent extends Component {
   render() {
     return (
       <React.Fragment>
-          <div className="MainWindowContainer">
+          <div id="HomeTab"className="MainWindowContainer">
         <Particles
           height={window.innerHeight}
           params={{

@@ -1,23 +1,75 @@
 .ContactMainContainer {
-    width: 100%;
-    height: 800px;
-    background-color: black;
+  width: 100%;
+  height: 600px;
+  background-color: black;
 }
 .ContactHeader {
-    width: 100%;
-    height: 15%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.ContactHeader h2 {
+  margin: 2%;
+}
+.ContactLine {
+  height: 5px;
+  width: 100px;
+  background-color: teal;
+}
+.ContactText {
+  color: white;
+}
+.ContactForm {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+}
+.ContactForm form {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ContactForm form input {
+  height: 13%;
+  background-color: rgb(37, 37, 37);
+  padding-left: 10px;
+}
+.ContactForm form textarea {
+  height: 35%;
+  background-color: rgb(37, 37, 37);
+  padding: 10px;
+}
+.ContactForm form input[type="submit"] {
+  background-color: rgba(179, 19, 19, 0.7); /* Black w/opacity/see-through */
+}
+.ContactSocialMedia {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ContactSocialIcons {
+    width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+.ContactSocialIcons a {
+    width: 15%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: white;
-  }
-  .ContactHeader h2 {
-    margin: 2%;
-  }
-  .ContactLine {
-    height: 5px;
-    width: 100px;
-    background-color: teal;
-  }
+}
+.ContactSocialIcons a img {
+    width: 90%;
+}
+.ContactSocialMedia h4, .ContactSocialMedia h5 {
+    margin: 15px 0;
+ 
+}

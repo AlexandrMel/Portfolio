@@ -8,10 +8,25 @@ const Navbar = () => {
 const burger = () => {
 changeClass === "" ? setChangeClass("change") : setChangeClass("")
 }
+const NavRef = useRef();
+// console.log(NavRef.current)
+window.onscroll = function() {
+    var sticky = NavRef.current.getBoundingClientRect()
+    console.log(sticky)
+    console.log(window.innerHeight)
+    
+  };
+
 
     return (
-<nav >
-    <div className={`${changeClass}`} onClick={() => burger()}>
+<nav>
+<ul >
+    <li className={changeClass === "change" ? "liHome" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#HomeTab">Home</a></li>
+    <li className={changeClass === "change" ? "liAbout" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#AboutTab">About</a></li>
+    <li className={changeClass === "change" ? "liProjects" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#ProjectsTab">Projects</a></li>
+    <li className={changeClass === "change" ? "liContact" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#ContactTab">Contact</a></li>
+</ul>
+    <div ref={NavRef} className={`${changeClass}`} onClick={() => burger()}>
   <div className="bar1"></div>
   <div className="bar2"></div>
   <div className="bar3"></div>

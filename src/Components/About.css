@@ -6,10 +6,10 @@
 }
 .AboutHeader {
   width: 100%;
-  height: 10%;
+  height: 13%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   font-size: 1.5rem;
 }
@@ -101,7 +101,7 @@
 }
 .AboutIntro {
     width: 100%;
-    height: 20%;
+    height: 17%;
 }
 .AboutIntro p {
     text-align: center;

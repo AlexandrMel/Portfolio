@@ -8,7 +8,7 @@
   height: 6%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   font-size: 1.5rem;
 }
