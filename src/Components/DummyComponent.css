@@ -1,6 +1,10 @@
 .MainWindowContainer {
     position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
+
 .MainText {
   position: absolute;
   display: flex;
@@ -14,7 +18,7 @@
   width: 85%;
   padding: 0;
   margin: 0;
-  animation: blury 3s;
+  animation: blury 4s;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
 
@@ -46,7 +50,7 @@
 
   opacity: 0;
   animation: appear 2s;
-  animation-delay: 3s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
   -moz-animation-fill-mode: forwards; /* FF 5+ */
   -o-animation-fill-mode: forwards; /* Not implemented yet */

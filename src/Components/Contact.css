@@ -1,0 +1,23 @@
+.ContactMainContainer {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.ContactHeader {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .ContactHeader h2 {
+    margin: 2%;
+  }
+  .ContactLine {
+    height: 5px;
+    width: 100px;
+    background-color: teal;
+  }

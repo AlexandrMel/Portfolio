@@ -106,15 +106,15 @@ const About = () => {
             </div>
           </div>
         </div>
-        </div>
-        <div className="AboutIntro">
-          <h2>Who am i?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            laborum consequuntur modi earum, necessitatibus iste harum unde
-            numquam dicta sint iusto maxime itaque, dolores, consectetur ex
-            aspernatur soluta. Nemo totam{" "}
-          </p>
+      </div>
+      <div className="AboutIntro">
+        <h2>Who am i?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          laborum consequuntur modi earum, necessitatibus iste harum unde
+          numquam dicta sint iusto maxime itaque, dolores, consectetur ex
+          aspernatur soluta. Nemo totam{" "}
+        </p>
       </div>
     </div>
   );

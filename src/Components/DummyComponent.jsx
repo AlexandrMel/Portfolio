@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
 import "./DummyComponent.css";
-import Image from './images/image.gif'
+import Image from '../images/image.gif'
 
 class DummyComponent extends Component {
   render() {
@@ -16,7 +16,7 @@ class DummyComponent extends Component {
                 color: "#FFFFFF",
               },
               number: {
-                value: 30,
+                value: 70,
               },
               size: {
                 value: 5,
