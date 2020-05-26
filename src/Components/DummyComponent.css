@@ -16,6 +16,7 @@
   color: white;
   border: 2px solid whitesmoke;
   width: 85%;
+  max-width: 500px;
   padding: 0;
   margin: 0;
   animation: blury 4s;
@@ -44,13 +45,14 @@
   color: white;
   border: 2px solid whitesmoke;
   width: 85%;
+  max-width: 300px;
   padding: 0;
   margin: 0;
   background-color: rgba(179, 19, 19, 0.7); /* Black w/opacity/see-through */
 
   opacity: 0;
   animation: appear 2s;
-  animation-delay: 4s;
+  animation-delay: 3s;
   -webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
   -moz-animation-fill-mode: forwards; /* FF 5+ */
   -o-animation-fill-mode: forwards; /* Not implemented yet */
@@ -90,5 +92,11 @@
 }
 to {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
 }

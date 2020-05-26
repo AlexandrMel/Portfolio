@@ -1,8 +1,9 @@
 .AboutMainContainer {
-  height: 1300px;
+  height: 1350px;
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 .AboutHeader {
   width: 100%;
@@ -12,6 +13,7 @@
   justify-content: flex-end;
   align-items: center;
   font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 .AboutHeader h2 {
   margin: 2%;
@@ -26,8 +28,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  height: 26%;
-  padding: 5% 0;
+  height: 25%;
+  margin-top: 5%;
 }
 .CardContainer {
   min-width: 23%;
@@ -50,90 +52,158 @@
   filter: invert(28%) sepia(80%) hue-rotate(-180deg) saturate(3);
 }
 .SkillSet {
-  height: 26%;
+  height: 52%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin: 0;
-  margin-bottom: 2%;
   padding: 0;
 }
 .AboutSkills {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.SkillArrContainer {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .MainSkillContainer {
-    width: 85%;
-    height: 20px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin: 1.5% 0;
+  width: 85%;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: 1.2% 0;
 }
 .SkillNameContainer {
-    background-color: black;
-    width: 25%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 0.6rem;
-  
+  background-color: black;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.6rem;
 }
 .SkillBar {
-    width: 75%;
-    height: 100%;
-    background-color: #DCDCDC;
+  width: 75%;
+  height: 100%;
+  background-color: #dcdcdc;
 }
 .SkillBarFill {
-    width: 80%;
-    height: 100%;
-    background-color:#A9A9A9;
-
+  width: 80%;
+  height: 100%;
+  background-color: #a9a9a9;
 }
 .AboutIntro {
-    width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .AboutFrame {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 97%;
-  width: 80%;
+  /* height: 97%; */
+  width: 280px;
+  height: 400px;
+
+  /* width: 70%; */
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .AboutPic {
   margin-top: 5%;
   width: 90%;
-  height: 65%;
+  height: 62%;
   /* border: 1px solid black; */
 }
 .AboutPic img {
-object-fit: cover;
-width: 100%;
-height: 100%;
-object-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
 }
 .AboutIntro p {
-    text-align: center;
-    font-size: 0.7rem;
-    width: 90%;
-    margin: auto auto;
-    padding: 0;
+  text-align: center;
+  font-size: 0.7rem;
+  width: 90%;
+  margin: auto auto;
+  padding: 0;
 }
 .AboutIntro h2 {
-    margin: 2%;
+  margin: 2%;
+}
+
+.AboutSkills_Intro {
+  width: 100%;
+  height: 63%;
+}
+@media only screen and (min-width: 500px) {
+  .AboutMainContainer {
+    height: 1500px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .AboutMainContainer {
+    height: 1100px;
+  }
+  .AboutHeader {
+    height: 12%;
+  }
+  .AboutMainHighlights {
+    flex-direction: row;
+    margin: 0;
+  }
+  .AboutFrame {
+    
+    width: 430px;
+    height: 550px;
+    }
+  .CardContainer {
+    width: 22%;
+    margin: 1%;
+    text-align: center;
+  }
+  .CardContainer h4 {
+    font-size: 1.4rem;
+  }
+  .CardContainer p {
+    font-size: 1rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .AboutSkills {
+    max-height: 550px;
+  }
+  .AboutSkills_Intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 63%;
+  }
+  .SkillSet {
+    height: 100%;
+    width: 45%;
+  }
+  .MainSkillContainer {
+  height: 25px;   
+  }
+  .AboutIntro {
+    height: 100%;
+    width: 45%;
+  }
 }
