@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import AlexImg from '../images/Alex.jpg'
 
 const About = () => {
   return (
@@ -108,6 +109,10 @@ const About = () => {
         </div>
       </div>
       <div className="AboutIntro">
+        <div className="AboutFrame">
+
+          <div className="AboutPic"><img src={AlexImg} /></div>
+        
         <h2>Who am i?</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -115,6 +120,7 @@ const About = () => {
           numquam dicta sint iusto maxime itaque, dolores, consectetur ex
           aspernatur soluta. Nemo totam{" "}
         </p>
+        </div>
       </div>
     </div>
   );
