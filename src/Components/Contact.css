@@ -65,23 +65,30 @@
 }
 .ContactSocialIcons a {
     width: 15%;
+    height: 100px;
     display: flex;
     justify-content: center;
 }
 .ContactSocialIcons a img {
-    width: 90%;
+    width: 50px;
+    height: 50px;
 }
 .ContactSocialMedia h4, .ContactSocialMedia h5 {
     margin: 15px 0;
  
 }
+.ContactSocialMedia img {
+  margin: 3%;
+  height: 60px;
+}
 .ContactWrapper {
   width: 100%;
   max-width: 500px;
-  height: 600px;
+  height: 550px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+

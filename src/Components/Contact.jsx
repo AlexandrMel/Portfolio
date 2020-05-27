@@ -3,6 +3,7 @@ import "./Contact.css";
 import Facebook from '../images/facebook.png'
 import Linkedin from '../images/linkedin.png'
 import Github from '../images/github.png'
+import Alex_logo from '../images/Alex_logo2.png'
 
 const Contact = () => {
   return (
@@ -41,7 +42,7 @@ const Contact = () => {
           <a data-aos="flip-up" data-aos-delay="2200" data-aos-duration="1000" href="#"><img src={Github} /></a>
           <a data-aos="flip-up" data-aos-delay="2700" data-aos-duration="1000" href="#"><img src={Facebook} /></a>
         </div>
-        <h5>Alexandr Melnic  &#9400;</h5>
+        <img height="50px" src={Alex_logo} />
       </div>
       </div>
     </div>
