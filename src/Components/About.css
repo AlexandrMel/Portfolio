@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   background-color: white;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .AboutHeader {
   width: 100%;
@@ -85,6 +87,7 @@
   padding: 0;
   display: flex;
   margin: 1.2% 0;
+  overflow: hidden;
 }
 .SkillNameContainer {
   background-color: black;
@@ -100,6 +103,12 @@
   width: 75%;
   height: 100%;
   background-color: #dcdcdc;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1%;
+  font-size: 0.6rem;
 }
 .SkillBarFill {
   width: 80%;

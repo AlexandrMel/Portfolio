@@ -38,7 +38,7 @@ class DummyComponent extends Component {
         />
         <div className="MainText">
           <h2>Hi, I'm Alexandr Melnic</h2>
-          <p> I am a full-stack Web Developer</p>
+          <p> I am a full-stack Web Developer based in Berlin, Germany</p>
         </div>
         <div className="findMoreDiv">
           <h4>Find out more about me</h4>

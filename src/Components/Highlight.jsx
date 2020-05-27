@@ -2,8 +2,10 @@ import React from "react";
 
 
 const Hightlight = (props) => {
+  let delay = parseInt(props.id) * 400
+  console.log(delay)
     return (
-        <div className="CardContainer">
+        <div data-aos="zoom-in" data-aos-delay={delay.toString()} data-aos-once="true" data-aos-duration="1000" className="CardContainer">
         <div className="icon">
           <img src={props.obj.img} />
         </div>

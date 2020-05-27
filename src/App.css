@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   height: auto;
+  width: 100%;
 }
 
 .App-logo {

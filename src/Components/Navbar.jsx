@@ -20,13 +20,19 @@ window.onscroll = function() {
 
     return (
 <nav>
-<ul >
+<ul className="mobileNav" >
     <li className={changeClass === "change" ? "liHome" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#HomeTab">Home</a></li>
     <li className={changeClass === "change" ? "liAbout" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#AboutTab">About</a></li>
     <li className={changeClass === "change" ? "liProjects" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#ProjectsTab">Projects</a></li>
     <li className={changeClass === "change" ? "liContact" : ""}><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#ContactTab">Contact</a></li>
 </ul>
-    <div ref={NavRef} className={`${changeClass}`} onClick={() => burger()}>
+<ul className="desktopNav" >
+    <li><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#HomeTab">Home</a></li>
+    <li><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#AboutTab">About</a></li>
+    <li><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#ProjectsTab">Projects</a></li>
+    <li><a onClick={() => setChangeClass("")} style={{color: `${changeClass === "change" ? "white" : "black"}`}} href="#ContactTab">Contact</a></li>
+</ul>
+    <div ref={NavRef} className={`${changeClass} burger`} onClick={() => burger()}>
   <div className="bar1"></div>
   <div className="bar2"></div>
   <div className="bar3"></div>

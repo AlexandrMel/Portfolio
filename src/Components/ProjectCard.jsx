@@ -1,8 +1,9 @@
 import React from "react";
 
 const ProjectCard = (props) => {
+  const delay = props.id * 300;
   return (
-    <div className="ProjectCard">
+    <div data-aos="fade-up" data-aos-delay={delay} data-aos-once="true" data-aos-duration="1000" className="ProjectCard">
       <div className="ProjectCardImg">
         <img src={props.obj.img} />
       </div>
