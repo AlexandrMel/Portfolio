@@ -1,7 +1,9 @@
 .ContactMainContainer {
   width: 100%;
-  height: 600px;
+  height: 100%;
   background-color: black;
+  margin: 0;
+  padding: 0;
 }
 .ContactHeader {
   width: 100%;
@@ -72,4 +74,14 @@
 .ContactSocialMedia h4, .ContactSocialMedia h5 {
     margin: 15px 0;
  
+}
+.ContactWrapper {
+  width: 100%;
+  max-width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

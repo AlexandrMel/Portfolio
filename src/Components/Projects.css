@@ -1,16 +1,22 @@
 .ProjectsMainContainer {
   width: 100%;
-  height: 2200px;
+  height: 2400px;
   background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .ProjectsHeader {
   width: 100%;
-  height: 6%;
+  height: 9%;
+  max-height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   font-size: 1.5rem;
+  margin-top: 2%;
 }
 .ProjectsHeader h2 {
   margin: 2%;
@@ -22,7 +28,7 @@
 }
 .ProjectsList {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,41 +36,74 @@
 }
 .ProjectCard {
   width: 70%;
-  height: 14%;
+  height: 15%;
   border: 5px solid black;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   background-color: white;
-  margin: 3%;
+  margin: 1%;
 }
 .ProjectCardImg {
-    width: 100%;
-    height: 55%;
-    border-bottom: 5px solid black;
+  width: 100%;
+  height: 55%;
+  border-bottom: 5px solid black;
 }
 .ProjectCardImg img {
-object-fit: cover;
-width: 100%;
-height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .ProjectCardText {
-    width: 100%;
-    height: 45%;
-    margin:0;
-    padding: 0%;
+  width: 100%;
+  height: 45%;
+  margin: 0;
+  padding: 0%;
 }
 .ProjectCardText h2 {
-margin: 2%;
+  margin: 2%;
 }
-.ProjectCardText p, .ProjectCardText a{
-font-size: 0.8rem;
-text-align: center;
-margin: 0;
+.ProjectCardText p,
+.ProjectCardText a {
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0;
 }
 
 @media only screen and (min-width: 500px) {
-.ProjectCard {
-  width: 39%;
-}}
+  .ProjectCard {
+    width: 39%;
+    height: 30%;
+    margin: 2%;
+  }
+  .ProjectsMainContainer {
+    height: 1400px;
+
+  }
+}
+@media only screen and (min-width: 800px) {
+  .ProjectsMainContainer {
+    height: 1000px;
+
+  }
+  .ProjectCard {
+    width: 30%;
+    height: 40%;
+    margin: 1%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .ProjectsMainContainer {
+    height: 1400px;
+
+  }
+  .ProjectCard {
+    width: 22%;
+    height: 45%;
+    margin: 2%;
+  }
+  .ProjectsHeader h2 {
+   margin: 1%;
+  }
+}

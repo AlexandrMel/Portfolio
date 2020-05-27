@@ -18,6 +18,7 @@ const Contact = () => {
       >
         <path d="M0 0 L50 100 L100 0 Z" fill="#f5f5f5" stroke="white"></path>
       </svg>
+      <div className="ContactWrapper">
       <div className="ContactHeader">
         <h2>Contact</h2>
         <div className="ContactLine"></div>
@@ -41,6 +42,7 @@ const Contact = () => {
           <a href="#"><img src={Facebook} /></a>
         </div>
         <h5>Alexandr Melnic  &#9400;</h5>
+      </div>
       </div>
     </div>
   );

@@ -163,6 +163,7 @@
   }
   .AboutHeader {
     height: 12%;
+    margin-top: 2%;
   }
   .AboutMainHighlights {
     flex-direction: row;
