@@ -28,8 +28,8 @@ const Contact = () => {
         <h3 data-aos="fade-in" data-aos-delay="500" data-aos-once="true" data-aos-duration="1000">Want to get in touch?</h3>
       </div>
       <div className="ContactForm">
-        <form action="https://mailthis.to/melnic.alexandr88@gmail.com"
-    method="POST" encType="multipart/form-data">
+        <form action="https://mailthis.to/AlexandrMel"
+    method="POST">
           <input name="name" data-aos="fade-up" data-aos-delay="100" data-aos-once="true" data-aos-duration="1000" type="text" placeholder="Type in your Name" />
           <input name="_replyto" data-aos="fade-up" data-aos-delay="500"  data-aos-once="true" data-aos-duration="1000" type="email" placeholder="Type in your Email" />
           <textarea name="message" data-aos="fade-up" data-aos-delay="900" data-aos-once="true" data-aos-duration="1000" placeholder="Type in your Message" />
