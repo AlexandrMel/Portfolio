@@ -40,9 +40,9 @@ class DummyComponent extends Component {
           <h2>Hi, I'm Alexandr Melnic</h2>
           <p> I am a full-stack Web Developer based in Berlin, Germany</p>
         </div>
-        <div className="findMoreDiv">
-          <h4>Find out more about me</h4>
-        </div>{" "}
+        <button className="findMoreDiv">
+          <a href="#AboutTab"><h4>Find out more about me</h4></a>
+        </button>{" "}
         <div><img className="MainGif" height="100px" width="100px" src={Image} /></div>
         </div>
       </React.Fragment>

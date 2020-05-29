@@ -10,22 +10,22 @@ const About = () => {
     {
       img: "https://img.icons8.com/dotty/80/000000/idea.png",
       title: "CREATIVE",
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      text: "I like trying new things, i like doing old things in a new way.",
     },
     {
       img: "https://img.icons8.com/dotty/80/000000/reorder.png",
       title: "ORGANIZED",
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      text: "I like doing things step by step and having a road map with me.",
     },
     {
       img: "https://img.icons8.com/dotty/80/000000/rocket.png",
       title: "PRODUCTIVE",
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      text: "I am dedicated to my work and focused on my deadlines.",
     },
     {
-      img: "https://img.icons8.com/dotty/80/000000/web-design.png",
-      title: "RESPONSIVE",
-      text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      img: "https://img.icons8.com/wired/80/000000/trophy.png",
+      title: "MOTIVATED",
+      text: "I always push beyond my comfort zone and never stop learning.",
     },
   ]);
   const [skillsArr, SetSkillsArr] = useState([
@@ -34,7 +34,11 @@ const About = () => {
       percentage: "90%",
     },
     {
-      SkillName: "React",
+      SkillName: "ES6+Typescript",
+      percentage: "80%",
+    },
+    {
+      SkillName: "React + Redux",
       percentage: "87%",
     },
     {
@@ -88,7 +92,7 @@ const About = () => {
             <img src={AlexImg} />
           </div>
 
-          <h2>Who am i?</h2>
+          <h2>Who am i ?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             laborum consequuntur modi earum, necessitatibus iste harum unde

@@ -28,19 +28,20 @@ const Contact = () => {
         <h3 data-aos="fade-in" data-aos-delay="500" data-aos-once="true" data-aos-duration="1000">Want to get in touch?</h3>
       </div>
       <div className="ContactForm">
-        <form>
-          <input data-aos="fade-up" data-aos-delay="100" data-aos-once="true" data-aos-duration="1000" type="text" placeholder="Type in your Name" />
-          <input data-aos="fade-up" data-aos-delay="500"  data-aos-once="true" data-aos-duration="1000" type="email" placeholder="Type in your Email" />
-          <textarea data-aos="fade-up" data-aos-delay="900" data-aos-once="true" data-aos-duration="1000" placeholder="Type in your Message" />
+        <form action="https://mailthis.to/melnic.alexandr88@gmail.com"
+    method="POST" encType="multipart/form-data">
+          <input name="name" data-aos="fade-up" data-aos-delay="100" data-aos-once="true" data-aos-duration="1000" type="text" placeholder="Type in your Name" />
+          <input name="_replyto" data-aos="fade-up" data-aos-delay="500"  data-aos-once="true" data-aos-duration="1000" type="email" placeholder="Type in your Email" />
+          <textarea name="message" data-aos="fade-up" data-aos-delay="900" data-aos-once="true" data-aos-duration="1000" placeholder="Type in your Message" />
           <input data-aos="fade-up" data-aos-delay="1400" data-aos-once="true" data-aos-duration="1000" type="submit" value="Send" />
         </form>
       </div>
       <div className="ContactSocialMedia">
-        <h4>You can contact me also via Social Media!</h4>
+        <h4 data-aos="flip-up" data-aos-delay="2000" data-aos-duration="1000">You can contact me also via Social Media!</h4>
         <div className="ContactSocialIcons">
-          <a data-aos="flip-up" data-aos-delay="1700" data-aos-duration="1000" href="#"><img src={Linkedin} /></a>{" "}
-          <a data-aos="flip-up" data-aos-delay="2200" data-aos-duration="1000" href="#"><img src={Github} /></a>
-          <a data-aos="flip-up" data-aos-delay="2700" data-aos-duration="1000" href="#"><img src={Facebook} /></a>
+          <a data-aos="flip-up" data-aos-delay="2200" data-aos-duration="1000" href="#"><img src={Linkedin} /></a>{" "}
+          <a data-aos="flip-up" data-aos-delay="2700" data-aos-duration="1000" href="#"><img src={Github} /></a>
+          <a data-aos="flip-up" data-aos-delay="3000" data-aos-duration="1000" href="#"><img src={Facebook} /></a>
         </div>
         <img height="50px" src={Alex_logo} />
       </div>

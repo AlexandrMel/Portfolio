@@ -60,10 +60,13 @@
   -ms-animation-fill-mode: forwards; /* IE 10+ */
   animation-fill-mode: forwards; /* When the spec is finished */
 }
-.findMoreDiv h4,
-.findMoreDiv p {
+.findMoreDiv a h4,
+.findMoreDiv a {
   padding: 0;
-  margin: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
 }
 .MainGif {
     position: absolute;
