@@ -13,7 +13,7 @@ const Projects = () => {
     {
       img: `${CVFY}`,
       title: "CV|FY Platform",
-      text: `CVFY is a fully functional CV and Cover Letter builder with templates and web scraping capabilities. It allows users to import their data from other platforms and really customize their CV and Cover Letter.>It was built in just 6 weeks. `,
+      text: `CVFY is a fully functional CV and Cover Letter builder with templates and web scraping capabilities. It allows users to import their data from other platforms and really customize their CV and Cover Letter. It was built in just 6 weeks. `,
       github: "https://github.com/AlexandrMel/1_CV_FY_Project",
       liveDemo: "https://drive.google.com/file/d/1R9wHCFCQSp9yK05-WXK-kGYK8ApSohHp/view?usp=sharing",
     },
