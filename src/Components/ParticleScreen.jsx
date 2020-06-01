@@ -6,7 +6,7 @@ import Image from '../images/image.gif'
 class ParticleScreen extends Component {
 
   render() {
-    const ScreenWidth = window.innerWidth < 500 ? 70 : 200;
+
     return (
       <React.Fragment>
           <div id="HomeTab"className="MainWindowContainer">
@@ -18,7 +18,7 @@ class ParticleScreen extends Component {
                 color: "#FFFFFF",
               },
               number: {
-                value: `${ScreenWidth}`,
+                value: `${window.innerWidth < 500 ? 70 : 200}`,
               },
               size: {
                 value: 5,

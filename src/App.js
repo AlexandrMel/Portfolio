@@ -16,7 +16,7 @@ function App() {
     {
       img: "https://img.icons8.com/dotty/80/000000/idea.png",
       title: "CREATIVE",
-      text: "I like trying new things, i like doing old things in a new way.",
+      text: "I like trying new things and doing old things in a new way.",
     },
     {
       img: "https://img.icons8.com/dotty/80/000000/reorder.png",
