@@ -4,16 +4,8 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [changeClass, setChangeClass] = useState("");
-  const [changeNavLoc, setChangeNavLoc] = useState("");
   const burger = () => {
     changeClass === "" ? setChangeClass("change") : setChangeClass("");
-  };
-  const NavRef = useRef();
-  // console.log(NavRef.current)
-  window.onscroll = function () {
-    var sticky = NavRef.current.getBoundingClientRect();
-    console.log(sticky);
-    console.log(window.innerHeight);
   };
 
   return (
@@ -71,7 +63,6 @@ const Navbar = () => {
         </li>
       </ul>
       <div
-        ref={NavRef}
         className={`${changeClass} burger`}
         onClick={() => burger()}
       >

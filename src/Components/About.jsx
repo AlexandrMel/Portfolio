@@ -5,7 +5,6 @@ import Hightlight from "./Highlight";
 import SkillContainer from "./SkillContainer";
 
 const About = (props) => {
- 
   return (
     <div id="AboutTab" className="AboutMainContainer">
       <div className="AboutHeader">

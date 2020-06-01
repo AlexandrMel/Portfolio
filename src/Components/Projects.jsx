@@ -1,15 +1,8 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
-import PigGame from "../images/PigGame.png";
-import MemoryGame from "../images/Unsplash_Memory_Game.png";
-import CakeShop from "../images/CakeShop.png";
-import Memories_App from "../images/Memory_App.png";
-import CVFY from "../images/CVFY.png";
-import REFT360 from "../images/REFT360.png";
 
 const Projects = (props) => {
-  
   return (
     <div className="ProjectsWrapper">
       <div id="ProjectsTab" className="ProjectsMainContainer">
