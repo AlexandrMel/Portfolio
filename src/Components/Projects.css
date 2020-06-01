@@ -71,6 +71,8 @@
   height: 50%;
   margin: 0;
   padding: 0;
+  vertical-align: center;
+
 }
 .ProjectCardText h2 {
   padding: 2%;
@@ -88,6 +90,7 @@
   text-align: center;
   margin: 2%;
   margin-bottom: 0;
+  vertical-align: center;
 }
 
 @media only screen and (min-width: 500px) {
@@ -111,10 +114,16 @@
     height: 40%;
     margin: 1%;
   }
+.ProjectCardText p,
+.ProjectCardText a {
+  font-size: 0.6rem;
+  margin: 2%;
+}
+}
+@media only screen and (min-width: 1000px) {
   .ProjectCardText p,
 .ProjectCardText a {
-  font-size: 0.8rem;
-  margin: 2%;
+  font-size: 0.9rem;
 }
 }
 

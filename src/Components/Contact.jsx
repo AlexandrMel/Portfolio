@@ -37,11 +37,11 @@ const Contact = () => {
         </form>
       </div>
       <div className="ContactSocialMedia">
-        <h4 data-aos="flip-up" data-aos-delay="2000" data-aos-duration="1000">You can contact me also via Social Media!</h4>
+        <h4 data-aos="flip-up" data-aos-delay="2000" data-aos-once="true" data-aos-duration="1000">You can contact me also via Social Media!</h4>
         <div className="ContactSocialIcons">
-          <a data-aos="flip-up" data-aos-delay="2200" data-aos-duration="1000" target="_blank" href="https://www.linkedin.com/in/alexandrmelnic/"><img src={Linkedin} /></a>{" "}
-          <a data-aos="flip-up" data-aos-delay="2700" data-aos-duration="1000" target="_blank" href="https://github.com/AlexandrMel"><img src={Github} /></a>
-          <a data-aos="flip-up" data-aos-delay="3000" data-aos-duration="1000" target="_blank" href="https://www.facebook.com/alexandr.melnic"><img src={Facebook} /></a>
+          <a data-aos="flip-up" data-aos-delay="2200" data-aos-once="true" data-aos-duration="1000" target="_blank" href="https://www.linkedin.com/in/alexandrmelnic/"><img src={Linkedin} /></a>{" "}
+          <a data-aos="flip-up" data-aos-delay="2700" data-aos-once="true" data-aos-duration="1000" target="_blank" href="https://github.com/AlexandrMel"><img src={Github} /></a>
+          <a data-aos="flip-up" data-aos-delay="3000" data-aos-once="true" data-aos-duration="1000" target="_blank" href="https://www.facebook.com/alexandr.melnic"><img src={Facebook} /></a>
         </div>
         <img height="50px" src={Alex_logo} />
       </div>

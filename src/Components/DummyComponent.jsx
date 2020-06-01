@@ -16,7 +16,7 @@ class DummyComponent extends Component {
                 color: "#FFFFFF",
               },
               number: {
-                value: 130,
+                value: 80,
               },
               size: {
                 value: 5,
