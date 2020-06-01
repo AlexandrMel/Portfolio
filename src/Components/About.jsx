@@ -105,11 +105,11 @@ const About = () => {
               <img src={AlexImg} />
             </div>
 
-            <h2>Who am i ?</h2>
+            <h2>Who am I ?</h2>
             <p>
               I am a highly motivated fullstack Web Developer, ready for new
-              challenges, building nice looking, easy to use, user-friendly
-              websites and applications is truly a passion of mine, i always try
+              challenges. Building nice looking, easy to use, user-friendly
+              websites and applications is truly a passion of mine. I always try
               to discover new technologies and stay up-to-date on industry
               trends and advancements.
             </p>

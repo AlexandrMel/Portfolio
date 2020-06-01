@@ -147,7 +147,7 @@
 }
 .AboutIntro p {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.68rem;
   width: 90%;
   margin: 0 auto;
   padding: 3%;
@@ -165,8 +165,12 @@
   .AboutMainContainer {
     height: 1500px;
   }
+
 }
 @media only screen and (min-width: 800px) {
+  .AboutIntro p {
+    font-size: 0.9rem;
+  }
   .AboutMainContainer {
     height: 1100px;
   }
