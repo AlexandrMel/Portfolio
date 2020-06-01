@@ -72,10 +72,15 @@
   margin: 0;
   padding: 0;
   vertical-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 
 }
 .ProjectCardText h2 {
   padding: 2%;
+  width: 96%;
   margin: 0;
   font-size: 1.5rem;
   color: white;
@@ -88,11 +93,26 @@
 .ProjectCardText a {
   font-size: 0.7rem;
   text-align: center;
-  margin: 2%;
+  margin: 1%;
+  width: 96%;
   margin-bottom: 0;
   vertical-align: center;
 }
-
+.ProjectsButtons {
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProjectCardText a {
+border: 2px solid black;
+padding: 1%;
+font-size: 0.5rem;
+width: 30%;
+font-weight: 700;
+text-decoration: none;
+color: black;
+}
 @media only screen and (min-width: 500px) {
   .ProjectCard {
     width: 45%;
