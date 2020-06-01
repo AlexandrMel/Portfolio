@@ -12,53 +12,43 @@ const Projects = () => {
   const [projectsArr, SetProjectsArr] = useState([
     {
       img: `${CVFY}`,
-      title: "CV|FY",
-      text: `CVFY is a fully functional CV and Cover Letter builder with templates and web scraping capabilities which allows you can import your data from other platforms and really customize your CV and Cover Letter, built in just 6 weeks by our Team, `,
+      title: "CV|FY Platform",
+      text: `CVFY is a fully functional CV and Cover Letter builder with templates and web scraping capabilities which allows you can import your data from other platforms and really customize your CV and Cover Letter, built in just 6 weeks. `,
       github: "https://github.com/AlexandrMel/1_CV_FY_Project",
       liveDemo: "https://drive.google.com/file/d/1R9wHCFCQSp9yK05-WXK-kGYK8ApSohHp/view?usp=sharing",
     },
     {
       img: `${REFT360}`,
-      title: "REFT360",
-      text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-      distinctio neque animi, doloremque laboriosam nobis illo provident
-      itaque molestias omnis.`,
+      title: "REFT|360 App",
+      text: `REFT360 is a Real time feedback app, designed for employees, you can easy customize feedback request and give specific and structured feedback, the app is a PWA build with Ionic 5 framework it is still in development`,
       github: "https://github.com/AlexandrMel/REFT-360-",
       liveDemo: "https://reft360-65512.web.app/",
     },
     {
       img: `${Memories_App}`,
       title: "Memories App",
-      text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-      distinctio neque animi, doloremque laboriosam nobis illo provident
-      itaque molestias omnis.`,
+      text: `Memories App, is a small app that allows you to save memories, good and bad ones, it is also a PWA built with Ionic 5 and React and takes advantage of native features like Camera and device storage `,
       github: "https://github.com/AlexandrMel/Memories_App",
       liveDemo: "https://ionic-react-my-memories.web.app/",
     },
     {
       img: `${PigGame}`,
       title: "PIG Game",
-      text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-      distinctio neque animi, doloremque laboriosam nobis illo provident
-      itaque molestias omnis.`,
+      text: `PIG Game is one of a family of dice games described as "jeopardy dice games" where the dominant type of decision is whether or not to jeopardize previous gains by rolling for potential greater gains, it is made with Javascript and DOM Manipulations`,
       github: "https://github.com/AlexandrMel/3_My_Fancy_DiceGame-Pig_Game-",
       liveDemo: "https://alexandrmel.github.io/3_My_Fancy_DiceGame-Pig_Game-/",
     },
     {
       img: `${MemoryGame}`,
       title: "Unsplash Memory Game",
-      text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-      distinctio neque animi, doloremque laboriosam nobis illo provident
-      itaque molestias omnis.`,
+      text: `Unsplash Memory Game is a classic memory game where you can generate different pictures for the game using the Unsplash API, it is build with React`,
       github: "https://github.com/AlexandrMel/6_Memory_Game_Unsplash_Pic",
       liveDemo: "https://alexandrmel.github.io/6_Memory_Game_Unsplash_Pic/",
     },
     {
       img: `${CakeShop}`,
       title: "Cake Shop Website",
-      text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-      distinctio neque animi, doloremque laboriosam nobis illo provident
-      itaque molestias omnis.`,
+      text: `Cake Shop Website is a website template for a Cake Shop which i did for a colleague, it is a simple static website built with Javascript and DOM Manipulations`,
       github: "https://github.com/AlexandrMel/5_My_CakeShop_Project",
       liveDemo: "https://alexandrmel.github.io/5_My_CakeShop_Project/",
     },

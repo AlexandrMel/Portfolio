@@ -3,7 +3,7 @@ import "./About.css";
 import AlexImg from "../images/Alex.jpg";
 import Hightlight from "./Highlight";
 import SkillContainer from "./SkillContainer";
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from "react-animate-on-scroll";
 
 const About = () => {
   const [highlights, SetHighlights] = useState([
@@ -81,36 +81,50 @@ const About = () => {
   return (
     <div id="AboutTab" className="AboutMainContainer">
       <div className="AboutHeader">
-        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" >About</h2>
-        <div data-aos="slide-right" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true" className="AboutLine"></div>
+        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+          About
+        </h2>
+        <div
+          data-aos="slide-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          className="AboutLine"
+        ></div>
       </div>
-     
-      <div className="AboutSkills_Intro">
-      <div className="AboutIntro ">
-     <div data-aos="flip-right" data-aos-duration="1500" data-aos-once="true" className="AboutFrame" >
-          <div className="AboutPic">
-            <img src={AlexImg} />
-          </div>
 
-          <h2>Who am i ?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            laborum consequuntur modi earum, necessitatibus iste harum unde
-            numquam dicta sint iusto maxime itaque, dolores, consectetur ex
-            aspernatur soluta. Nemo totam{" "}
-          </p>
-        </div>
-        </div>
-      <div className="SkillSet">
-        <div className="AboutSkills">
-          <h2>Tech Skills</h2>
-          <div className="SkillArrContainer">
-            {skillsArr.map((el, i) => (
-              <SkillContainer obj={el} />
-            ))}
+      <div className="AboutSkills_Intro">
+        <div className="AboutIntro ">
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-once="true"
+            className="AboutFrame"
+          >
+            <div className="AboutPic">
+              <img src={AlexImg} />
+            </div>
+
+            <h2>Who am i ?</h2>
+            <p>
+              I am a highly motivated fullstack Web Developer, ready for new
+              challenges, building nice looking, easy to use, user-friendly
+              websites and applications is truly a passion of mine, i always try
+              to discover new technologies and stay up-to-date on industry
+              trends and advancements.
+            </p>
           </div>
         </div>
-      </div>
+        <div className="SkillSet">
+          <div className="AboutSkills">
+            <h2>Tech Skills</h2>
+            <div className="SkillArrContainer">
+              {skillsArr.map((el, i) => (
+                <SkillContainer obj={el} />
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
       <div className="AboutMainHighlights">
         {highlights.map((el, i) => {

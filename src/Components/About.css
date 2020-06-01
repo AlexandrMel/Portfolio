@@ -147,10 +147,10 @@
 }
 .AboutIntro p {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   width: 90%;
   margin: 0 auto;
-  padding: 0;
+  padding: 3%;
   border-top: 1px solid black;
 }
 .AboutIntro h2 {
