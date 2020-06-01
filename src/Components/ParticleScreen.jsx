@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
-import "./DummyComponent.css";
+import "./ParticleScreen.css";
 import Image from '../images/image.gif'
 
-class DummyComponent extends Component {
+class ParticleScreen extends Component {
+
   render() {
+    const ScreenWidth = window.innerWidth < 500 ? 70 : 200;
     return (
       <React.Fragment>
           <div id="HomeTab"className="MainWindowContainer">
@@ -16,7 +18,7 @@ class DummyComponent extends Component {
                 color: "#FFFFFF",
               },
               number: {
-                value: 80,
+                value: `${ScreenWidth}`,
               },
               size: {
                 value: 5,
@@ -49,4 +51,4 @@ class DummyComponent extends Component {
     );
   }
 }
-export default DummyComponent;
+export default ParticleScreen;

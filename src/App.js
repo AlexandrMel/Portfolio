@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 // import ParticlesBg from 'particles-bg';
-import DummyComponent from "./Components/DummyComponent";
+import ParticleScreen from "./Components/ParticleScreen";
 // import SideBar from './Sidebar'
 // import './burger.css'
 import About from "./Components/About";
@@ -14,7 +14,7 @@ function App() {
   return (
     <React.Fragment>
       <div className="App">
-        <DummyComponent />
+        <ParticleScreen />
         <Navbar />
         <About />
         <Projects />
