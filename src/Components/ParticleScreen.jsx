@@ -16,7 +16,7 @@ class ParticleScreen extends Component {
                   color: "#FFFFFF",
                 },
                 number: {
-                  value: `${window.innerWidth < 500 ? 50 : 200}`,
+                  value: `${Number(window.innerWidth) < 500 ? 70 : 200}`,
                 },
                 size: {
                   value: 5,
