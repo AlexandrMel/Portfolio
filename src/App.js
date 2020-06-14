@@ -48,6 +48,10 @@ function App() {
       percentage: "87%",
     },
     {
+      SkillName: "Angular",
+      percentage: "60%",
+    },
+    {
       SkillName: "Node JS",
       percentage: "70%",
     },
@@ -78,11 +82,8 @@ function App() {
     {
       SkillName: "PWA",
       percentage: "85%",
-    },
-    {
-      SkillName: "Web Scraping",
-      percentage: "80%",
-    },
+    }
+   
   ]);
 
   const [projectsArr, SetProjectsArr] = useState([
