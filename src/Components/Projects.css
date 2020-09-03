@@ -1,12 +1,11 @@
 .ProjectsWrapper {
   width: 100%;
   height: 100%;
-  background-color: #f5f5f5;;
-
+  background-color: #f5f5f5;
 }
 .ProjectsMainContainer {
   width: 100%;
-  height: 2400px;
+  height: 2400%;
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
@@ -76,7 +75,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
 }
 .ProjectCardText h2 {
   padding: 2%;
@@ -84,10 +82,9 @@
   margin: 0;
   font-size: 1.5rem;
   color: white;
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 1); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 1); /* Black w/opacity/see-through */
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-
 }
 .ProjectCardText p,
 .ProjectCardText a {
@@ -105,13 +102,17 @@
   align-items: center;
 }
 .ProjectCardText a {
-border: 2px solid black;
-padding: 1%;
-font-size: 0.5rem;
-width: 30%;
-font-weight: 700;
-text-decoration: none;
-color: black;
+  border: 2px solid black;
+  padding: 1%;
+  font-size: 0.5rem;
+  width: 30%;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+.ProjectCardText a:hover {
+  background: black;
+  color: white;
 }
 @media only screen and (min-width: 500px) {
   .ProjectCard {
@@ -120,30 +121,30 @@ color: black;
     margin: 2%;
   }
   .ProjectsMainContainer {
-    height: 1400px;
-
+    height: 3150px;
   }
 }
 @media only screen and (min-width: 800px) {
   .ProjectsMainContainer {
-    height: 1100px;
-
+    height: 1400px;
   }
   .ProjectCard {
     width: 31%;
     height: 40%;
     margin: 1%;
   }
-.ProjectCardText p,
-.ProjectCardText a {
-  font-size: 0.6rem;
-  margin: 2%;
-}
-}
-@media only screen and (min-width: 1000px) {
   .ProjectCardText p,
-.ProjectCardText a {
-  font-size: 0.9rem;
+  .ProjectCardText a {
+    font-size: 0.6rem;
+    margin: 2%;
+  }
 }
+@media only screen and (min-width: 900px) {
+  .ProjectCardText p,
+  .ProjectCardText a {
+    font-size: 0.9rem;
+  }
+  .ProjectsMainContainer {
+    height: 2000px;
+  }
 }
-

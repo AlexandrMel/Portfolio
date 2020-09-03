@@ -6,6 +6,9 @@ import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import AOS from "aos";
 import PigGame from "./images/PigGame.png";
+import Burger_Shop from "./images/Burger_Shop.png";
+import Funky_Sun from "./images/Funky_Sun.png";
+import News_App from "./images/News_App.png";
 import MemoryGame from "./images/Unsplash_Memory_Game.png";
 import CakeShop from "./images/CakeShop.png";
 import Memories_App from "./images/Memory_App.png";
@@ -82,8 +85,7 @@ function App() {
     {
       SkillName: "PWA",
       percentage: "85%",
-    }
-   
+    },
   ]);
 
   const [projectsArr, SetProjectsArr] = useState([
@@ -101,6 +103,20 @@ function App() {
       text: `REFT360 is a Real time feedback tool app designed for employees. You can easily customize feedback requests and give specific and structured feedback. The app is a PWA build with Ionic 5 framework and it is still in development`,
       github: "https://github.com/AlexandrMel/REFT-360-",
       liveDemo: "https://reft360-65512.web.app/",
+    },
+    {
+      img: `${Burger_Shop}`,
+      title: "Burger Shop",
+      text: `Burger Shop is a React App with Firebase Backend that allows you to register and make burger orders with nice visuals`,
+      github: "https://github.com/AlexandrMel/Burger_Shop",
+      liveDemo: "https://alexandrmel.github.io/Burger_Shop/",
+    },
+    {
+      img: `${News_App}`,
+      title: "Moldovian News App",
+      text: `A Moldovanian News App that gets the news from an API i built and a web scraper that scrapes the info from local news makers`,
+      github: "https://github.com/AlexandrMel/NewsApp_Ionic_React/",
+      liveDemo: "https://newsapp-d77a8.web.app/allnews",
     },
     {
       img: `${Memories_App}`,
@@ -129,6 +145,13 @@ function App() {
       text: `Cake Shop Website is a website template for a Cake Shop which i did for a colleague. It is a simple static website built with Javascript and DOM Manipulations`,
       github: "https://github.com/AlexandrMel/5_My_CakeShop_Project",
       liveDemo: "https://alexandrmel.github.io/5_My_CakeShop_Project/",
+    },
+    {
+      img: `${Funky_Sun}`,
+      title: "Funky Sun Animation",
+      text: `An animation with random generated colorful objects that form a funky sun, very relaxing`,
+      github: "https://github.com/AlexandrMel/2_My_Funky_Sun_Project",
+      liveDemo: "https://alexandrmel.github.io/2_My_Funky_Sun_Project/",
     },
   ]);
   AOS.init();
