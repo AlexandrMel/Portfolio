@@ -5,7 +5,7 @@
 }
 .ProjectsMainContainer {
   width: 100%;
-  height: 2400%;
+  height: auto;
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 }
 .ProjectsHeader {
   width: 100%;
-  height: 9%;
+  height: 100px;
   max-height: 100px;
   display: flex;
   flex-direction: column;
@@ -42,8 +42,8 @@
   flex-wrap: wrap;
 }
 .ProjectCard {
-  width: 80%;
-  height: 14%;
+  width: 70%;
+  height: 400px;
   /* border: 5px solid black; */
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   display: flex;
@@ -117,20 +117,20 @@
 @media only screen and (min-width: 500px) {
   .ProjectCard {
     width: 45%;
-    height: 30%;
+    /* height: 30%; */
     margin: 2%;
   }
   .ProjectsMainContainer {
-    height: 3150px;
+    /* height: 3150px; */
   }
 }
 @media only screen and (min-width: 800px) {
   .ProjectsMainContainer {
-    height: 1400px;
+    /* height: 1400px; */
   }
   .ProjectCard {
     width: 31%;
-    height: 40%;
+    /* height: 40%; */
     margin: 1%;
   }
   .ProjectCardText p,
@@ -145,6 +145,6 @@
     font-size: 0.9rem;
   }
   .ProjectsMainContainer {
-    height: 2000px;
+    /* height: 2000px; */
   }
 }

@@ -14,6 +14,8 @@ import CakeShop from "./images/CakeShop.png";
 import Memories_App from "./images/Memory_App.png";
 import CVFY from "./images/CVFY.png";
 import REFT360 from "./images/REFT360.png";
+import PHP_API from "./images/PHP_API.png";
+import JAVA_API from "./images/JAVA_API.png";
 function App() {
   const [highlights, SetHighlights] = useState([
     {
@@ -83,8 +85,16 @@ function App() {
       percentage: "80%",
     },
     {
-      SkillName: "PWA",
-      percentage: "85%",
+      SkillName: "PHP",
+      percentage: "75%",
+    },
+    {
+      SkillName: "JAVA",
+      percentage: "80%",
+    },   
+    {
+      SkillName: "Spring Boot",
+      percentage: "80%",
     },
   ]);
 
@@ -152,6 +162,27 @@ function App() {
       text: `An animation with random generated colorful objects that form a funky sun, very relaxing`,
       github: "https://github.com/AlexandrMel/2_My_Funky_Sun_Project",
       liveDemo: "https://alexandrmel.github.io/2_My_Funky_Sun_Project/",
+    },
+    {
+      img: `${MemoryGame}`,
+      title: "PHP Pizza Shop",
+      text: `A Simple Pizza Shop made with PHP and SQL database, you can view details, add and delete pizza's`,
+      github: "https://github.com/AlexandrMel/pizza_project",
+      liveDemo: "https://github.com/AlexandrMel/pizza_project",
+    },
+    {
+      img: `${PHP_API}`,
+      title: "PHP REST API",
+      text: `API with CRUD operations made with plain PHP without any frameworks, the database manipulations and some exception handling ar done with the PDO Class I used Class Oriented Programing for API Controllers`,
+      github: "https://github.com/AlexandrMel/REST_API_with_PHP",
+      liveDemo: "https://github.com/AlexandrMel/REST_API_with_PHP",
+    },
+    {
+      img: `${JAVA_API}`,
+      title: "JAVA REST API",
+      text: `An API with Authentication and Authorization build with Spring Boot and Java - still in development`,
+      github: "https://github.com/AlexandrMel/API_Project_using_Java",
+      liveDemo: "https://github.com/AlexandrMel/API_Project_using_Java",
     },
   ]);
   AOS.init();
