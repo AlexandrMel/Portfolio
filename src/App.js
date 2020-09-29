@@ -16,6 +16,7 @@ import CVFY from "./images/CVFY.png";
 import REFT360 from "./images/REFT360.png";
 import PHP_API from "./images/PHP_API.png";
 import JAVA_API from "./images/JAVA_API.png";
+import Pizza_PHP from "./images/Pizza_PHP.png";
 function App() {
   const [highlights, SetHighlights] = useState([
     {
@@ -164,7 +165,7 @@ function App() {
       liveDemo: "https://alexandrmel.github.io/2_My_Funky_Sun_Project/",
     },
     {
-      img: `${MemoryGame}`,
+      img: `${Pizza_PHP}`,
       title: "PHP Pizza Shop",
       text: `A Simple Pizza Shop made with PHP and SQL database, you can view details, add and delete pizza's`,
       github: "https://github.com/AlexandrMel/pizza_project",
