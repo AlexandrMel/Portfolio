@@ -107,7 +107,7 @@ const Contact = () => {
               target="_blank"
               href="https://github.com/AlexandrMel"
             >
-              <img src={Github} />
+              <img className="imi" src={Github} />
             </a>
             <a
               data-aos="flip-up"
@@ -120,7 +120,7 @@ const Contact = () => {
               <img src={Facebook} />
             </a>
           </div>
-          <img height="50px" src={Alex_logo} />
+          <a href="#top"><img height="50px" src={Alex_logo} /></a>
         </div>
       </div>
     </div>
