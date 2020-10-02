@@ -75,6 +75,9 @@
 .ContactSocialIcons a img {
     width: 50px;
     height: 50px;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+
 }
 .ContactSocialMedia h4, .ContactSocialMedia h5 {
     margin: 15px 0;
@@ -95,6 +98,10 @@
   align-items: center;
 }
 
-a img:hover {
-  transform: scale3d(1.5, 1.5, 1.5);
+.ContactSocialIcons a img:hover {
+  /* transform: scale3d(1.3, 1.3, 1.3); */
+  -moz-box-shadow: 0 0 15px #fff;
+-webkit-box-shadow: 0 0 15px #fff;
+box-shadow: 0px 0px 15px #fff;
+border-radius: 14%;
 }
